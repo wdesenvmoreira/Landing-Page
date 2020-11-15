@@ -1,0 +1,57 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.text {
+  font-family:monospace,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  color: #fff;
+  
+}
+
+.titulo{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #f5b461;
+  font-style: italic ;
+}
+  
+.gradient{
+  display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+width: 100vh;
+background: linear-gradient(45deg, #34626c,#839b97, #cfd3ce, #c6b497);
+background-size: 400%, 400%;
+}
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+.logo{
+  background-image: url('../img/SEU RETORNO.png');
+  background-repeat: no-repeat;
+ 
+  height: 80%;
+}
+
+.centro_esquerdo{
+  background: linear-gradient(180deg, #fff3e2,#fff3e2, #706897,#9088d4);
+  /* background-size: 100%; */
+  background-repeat: no-repeat;
+  
+  
+
+}
+.centro_direito{
+color: #fff3e2;
+}
+
+/*# sourceMappingURL=style.css.map */
